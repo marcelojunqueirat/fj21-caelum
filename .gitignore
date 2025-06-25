@@ -1,0 +1,21 @@
+.metadata
+RemoteSystemsTempFiles  
+
+# Compiled class files
+*.class
+
+# Output folders
+bin/
+build/
+out/
+
+# IDEs
+*.iml
+.idea/
+*.classpath
+*.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
