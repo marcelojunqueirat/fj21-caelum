@@ -1,0 +1,43 @@
+30-Jun-2025 20:41:52.351 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.106
+30-Jun-2025 20:41:52.354 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 5 2025 19:02:30 UTC
+30-Jun-2025 20:41:52.355 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.106.0
+30-Jun-2025 20:41:52.355 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Jun-2025 20:41:52.355 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-26-generic
+30-Jun-2025 20:41:52.355 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jun-2025 20:41:52.355 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/marcelo.teixeira@softplan.com.br/.sdkman/candidates/java/8.0.452-zulu/jre
+30-Jun-2025 20:41:52.355 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_452-b09
+30-Jun-2025 20:41:52.355 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+30-Jun-2025 20:41:52.355 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106
+30-Jun-2025 20:41:52.355 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106
+30-Jun-2025 20:41:52.360 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/conf/logging.properties
+30-Jun-2025 20:41:52.360 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jun-2025 20:41:52.360 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jun-2025 20:41:52.360 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jun-2025 20:41:52.360 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+30-Jun-2025 20:41:52.360 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Jun-2025 20:41:52.360 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jun-2025 20:41:52.360 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106
+30-Jun-2025 20:41:52.360 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106
+30-Jun-2025 20:41:52.360 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/temp
+30-Jun-2025 20:41:52.362 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+30-Jun-2025 20:41:52.560 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Jun-2025 20:41:52.574 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [343] milliseconds
+30-Jun-2025 20:41:52.639 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jun-2025 20:41:52.639 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.106]
+30-Jun-2025 20:41:52.647 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/webapps/ROOT]
+30-Jun-2025 20:41:52.772 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/webapps/ROOT] has finished in [123] ms
+30-Jun-2025 20:41:52.773 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/webapps/manager]
+30-Jun-2025 20:41:52.802 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/webapps/manager] has finished in [29] ms
+30-Jun-2025 20:41:52.802 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/webapps/examples]
+30-Jun-2025 20:41:52.904 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/webapps/examples] has finished in [102] ms
+30-Jun-2025 20:41:52.904 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/webapps/docs]
+30-Jun-2025 20:41:52.912 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/webapps/docs] has finished in [7] ms
+30-Jun-2025 20:41:52.912 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/webapps/host-manager]
+30-Jun-2025 20:41:52.920 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcelo.teixeira@softplan.com.br/Documentos/study/fj21-caelum/03-fj21-javaee/apache-tomcat-9.0.106/webapps/host-manager] has finished in [8] ms
+30-Jun-2025 20:41:52.922 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Jun-2025 20:41:52.932 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [358] milliseconds
+30-Jun-2025 20:42:42.769 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jun-2025 20:42:42.770 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Jun-2025 20:42:42.774 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jun-2025 20:42:42.789 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Jun-2025 20:42:42.807 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
