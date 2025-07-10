@@ -18,18 +18,18 @@ public class AlteraContatoLogic implements Logica {
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws Exception {
 
 		// buscando os parâmetros no request
-	    
+
 		// Tratando id, para add contato não dar nullpointer
 		String idParam = request.getParameter("id");
-        Long id = null;
-        if (idParam != null && !idParam.trim().isEmpty()) {
-            try {
-                id = Long.parseLong(idParam);
-            } catch (NumberFormatException e) {
-                throw new RuntimeException("ID inválido: " + idParam, e);
-            }
-        }
-		
+		Long id = null;
+		if (idParam != null && !idParam.trim().isEmpty()) {
+			try {
+				id = Long.parseLong(idParam);
+			} catch (NumberFormatException e) {
+				throw new RuntimeException("ID inválido: " + idParam, e);
+			}
+		}
+
 		String nome = request.getParameter("nome");
 		String endereco = request.getParameter("endereco");
 		String email = request.getParameter("email");
@@ -51,16 +51,15 @@ public class AlteraContatoLogic implements Logica {
 		contato.setEndereco(endereco);
 		contato.setEmail(email);
 		contato.setDataNascimento(dataNascimento);
-		
+
 		// salva o contato de alteração
 		ContatoDao dao = new ContatoDao();
 		if (id != null) {
-		    contato.setId(id);
-		    dao.altera(contato);
+			contato.setId(id);
+			dao.altera(contato);
 		} else {
-		    dao.adiciona(contato);
+			dao.adiciona(contato);
 		}
-
 
 		System.out.println("Salvando contato ...");
 
