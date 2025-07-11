@@ -1,5 +1,6 @@
 package br.com.caelum.mvc.logica;
 
+import java.sql.Connection;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -51,9 +52,12 @@ public class AlteraContatoLogic implements Logica {
 		contato.setEndereco(endereco);
 		contato.setEmail(email);
 		contato.setDataNascimento(dataNascimento);
+		
+		// busca a conexão pendurada na requisição via FiltroConexao
+		Connection connection = (Connection) request.getAttribute("conexao");
 
 		// salva o contato de alteração
-		ContatoDao dao = new ContatoDao();
+		ContatoDao dao = new ContatoDao(connection);
 		if (id != null) {
 			contato.setId(id);
 			dao.altera(contato);

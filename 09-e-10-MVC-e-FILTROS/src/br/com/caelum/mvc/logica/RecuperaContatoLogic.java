@@ -1,5 +1,7 @@
 package br.com.caelum.mvc.logica;
 
+import java.sql.Connection;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -12,7 +14,10 @@ public class RecuperaContatoLogic implements Logica {
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		long id = Long.parseLong(request.getParameter("id"));
 
-		ContatoDao dao = new ContatoDao();
+		// busca a conexão pendurada na requisição via FiltroConexao
+		Connection connection = (Connection) request.getAttribute("conexao");
+		
+		ContatoDao dao = new ContatoDao(connection);
 		Contato contato = dao.pesquisar(id);
 
 		System.out.println("Recuperando contato ...");
